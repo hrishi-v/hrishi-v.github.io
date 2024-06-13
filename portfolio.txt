@@ -1,0 +1,73 @@
+<!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>My Projects</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-c++">C++</li>
+            <li data-filter=".filter-python">Python</li>
+            <li data-filter=".filter-web">Web Development</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>E-Commerce Store</h4>
+              <p>Website</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="E-Commerce Store"><i class="bx bx-plus"></i></a>
+                <a href="ecommerce.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Weather App</h4>
+              <p>React Native</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Weather App"><i class="bx bx-plus"></i></a>
+                <a href="weatherapp.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-c++">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="Hotel Booking">
+            <div class="portfolio-info">
+              <h4>Hotel Booking</h4>
+              <p>Program</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Program"><i class="bx bx-plus"></i></a>
+                <a href="hotel.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Section  -->
